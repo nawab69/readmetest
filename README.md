@@ -44,13 +44,6 @@ export default App
 
 # Docs
 ## Button
-| Syntax | Description |
-| --- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-
-
 | Parameters      | Types | Defaults     |
 | :---:       |    :----:   |          :---: |
 | className      | `string`       | - |
