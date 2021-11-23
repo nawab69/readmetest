@@ -8,8 +8,8 @@
 		    border-radius:20px;
 		    padding:20px;
 		    }
-	       tbody tr{
-		    border:2px solid indigo;
+	       table tbody tr{
+		    border:2px solid indigo !important;
 		    }	    
             </style>
             <table>
