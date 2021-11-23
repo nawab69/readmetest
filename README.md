@@ -65,7 +65,9 @@ export default App
 </table>
   
 
-[table](table.svg)
+<div align="center">
+    <img src="table.svg" width="400" height="400" alt="css-in-readme">
+</div>
 
 ## License
 
