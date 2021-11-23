@@ -9,7 +9,7 @@
 		    padding:20px;
 		    }
 	       tr{
-		    border-bottom:1px solid indigo;
+		    border:2px solid indigo;
 		    }	    
             </style>
             <table>
