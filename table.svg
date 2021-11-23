@@ -6,7 +6,11 @@
 	       table{
 		    border:2px solid indigo;
 		    border-radius:20px;
+		    padding:20px;
 		    }
+	       tr{
+		    border-bottom:1px solid indigo;
+		    }	    
             </style>
             <table>
 		<thead>
