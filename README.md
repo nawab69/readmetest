@@ -51,23 +51,10 @@ export default App
 
 
 
-| Syntax      | Description | Test Text     |
+| Parameters      | Types | Defaults     |
 | :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-
-
-<table align="center" style="border-radius:20px">
-<tr>
-  
-  <td>hello</td>
-  </tr>
-</table>
-  
-
-<div align="center">
-    <img src="table.svg" width="400" height="400" alt="css-in-readme">
-</div>
+| className      | `string`       | - |
+| onClick   | `Function`        | ()=>{}      |
 
 ## License
 
