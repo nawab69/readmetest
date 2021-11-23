@@ -52,7 +52,7 @@ export default App
 
 
 | Parameters      | Types | Defaults     |
-| :---        |    :----:   |          ---: |
+| :---:       |    :----:   |          :---: |
 | className      | `string`       | - |
 | onClick   | `Function`        | ()=>{}      |
 
