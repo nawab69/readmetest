@@ -122,6 +122,15 @@ const items = [
 }
 export default App
 ```
+| Parameters      | Types       | Defaults     |
+| :---:           |    :----:   |  :---: |
+| items*          | `item[]`    |    |
+| className       | `string`    |  |
+| onCheck*       | `Function`  |    |
+| textStyle      | `string`    |  |
+| iconSize       | `number`    | `5`     |
+| iconColor      | `"black"` `"white"` `"green"` `"red"` `"yellow"` `"blue"` `"purple"` `"indigo"` | `"black"`     |
+| checkIcon       | `boolean`       | `true' |
 
 
 
