@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/multicone/portofolio/master/src/images/logo/multicone.png" alt="Markdownify" width="500"></a>
+ <img src="https://raw.githubusercontent.com/multicone/portofolio/master/src/images/logo/multicone.png" alt="multicone" width="500">
   <br>
   <br>
 </h1>
