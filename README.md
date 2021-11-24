@@ -44,11 +44,60 @@ export default App
 
 # Docs
 ## Button
+
+```js
+
+import React from 'react'
+import { Button } from '@multicone/components'
+
+const App = () => {
+  return (
+    <div>
+      <Button>...</Button>
+    </div>
+  )
+}
+export default App
+
+```
+
 | Parameters      | Types | Defaults     |
 | :---:       |    :----:   |          :---: |
-| className      | `string`       | - |
+| className      | `string`       |  |
 | onClick   | `Function`        | ()=>{}      |
-| variant   | `"deafult"` `"primary"` `"info"` `"success"` `"warning"` `"danger"` `"dark"`       | `"success"`     |
+| variant   | `"default"` `"primary"` `"info"` `"success"` `"warning"` `"danger"` `"dark"`| `"default"`|
+|size| `"xs"` `"sm"` `"base"` `"lg"` `"xl"` ... `"9xl"`| `"md"`|
+|disabled|`boolean`|`false`|
+|rounded|`"sm"` `"md"` `"lg"` `"full"`|`"md"`|
+|outline|`boolean`|`false`|
+
+## Checkbox
+
+```js
+
+import React, { useState } from 'react'
+import { Checkbox } from '@multicone/components'
+
+const App = () => {
+const [checked,setChecked] = useState(false)
+  return (
+    <div>
+      <Checkbox selected={checked} onCheck={setChecked}>...</Checkbox>
+    </div>
+  )
+}
+export default App
+
+```
+| Parameters      | Types | Defaults     |
+| :---:           |    :----:   |  :---: |
+| selected      | `boolean` | `false`    |
+| onCheck      | `Function` | Defaults   |
+| iconSize      | `number` | `32`     |
+| iconColor      | `"black"` `"white"` `"green"` `"red"` `"yellow"` `"blue"` `"purple"` `"indigo"` | `"black"`     |
+| className      | `string`       |  |
+| children      | `string` `jsx` | |     |
+
 
 ## License
 
