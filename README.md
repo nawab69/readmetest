@@ -48,6 +48,7 @@ export default App
 | :---:       |    :----:   |          :---: |
 | className      | `string`       | - |
 | onClick   | `Function`        | ()=>{}      |
+| variant   | `"deafult"` `"primary"` `"info"` `"success"` `"warning"` `"danger"` `"dark"`       | `"success"`     |
 
 ## License
 
