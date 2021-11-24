@@ -120,15 +120,42 @@ const items = [
 }
 export default App
 ```
+
+
+
+## Select
+
+```js
+
+import React, { useState } from 'react'
+import { Select } from '@multicone/components'
+
+const App = () => {
+const [selected,setSelected] = useState()
+
+const items = [
+   { name:'Dhaka', value:'d' },
+   { name:'Sylhet', value:'s' } ]
+   
+  return (
+    <div>
+      <Radio items={items}/>
+    </div>
+  )
+}
+export default App
+```
+
 | Parameters      | Types | Defaults     |
 | :---:           |    :----:   |  :---: |
 | items* | `item[]` |    |
-| onCheck*       | `Function` |    |
-| textStyle      | `string`       |  |
-| iconSize       | `number` | `5`     |
-| iconColor      | `"black"` `"white"` `"green"` `"red"` `"yellow"` `"blue"` `"purple"` `"indigo"` | `"green"`     |
+| onSelect*       | `Function` |    |
+| placeholder | `string` | |
 | className      | `string`       |  |
-| checkIcon      | `boolean`       |  `true` |
+| modalStyle      | `string`       |  |
+| arrowSize       | `number` | `32`     |
+| arrowColor      | `"black"` `"white"` `"green"` `"red"` `"yellow"` `"blue"` `"purple"` `"indigo"` | `"black"`     |
+| arrowSize      | `number`       | `false' |
 | children*      | `string` `jsx` |  |   
 
 
