@@ -64,13 +64,13 @@ export default App
 | Parameters      | Types | Defaults     |
 | :---:       |    :----:   |          :---: |
 | className      | `string`       |  |
-| onClick   | `Function`        | ()=>{}      |
+| onClick*   | `Function`        | ()=>{}      |
 | variant   | `"default"` `"primary"` `"info"` `"success"` `"warning"` `"danger"` `"dark"`| `"default"`|
 |size| `"xs"` `"sm"` `"base"` `"lg"` `"xl"` ... `"9xl"`| `"md"`|
 |disabled|`boolean`|`false`|
 |rounded|`"sm"` `"md"` `"lg"` `"full"`|`"md"`|
 |outline|`boolean`|`false`|
-
+| children*      | `string` `jsx` |  | 
 ## Checkbox
 
 ```js
@@ -91,19 +91,46 @@ export default App
 ```
 | Parameters      | Types | Defaults     |
 | :---:           |    :----:   |  :---: |
-| selected ```-*-```   | `boolean` | `false`    |
-| onCheck      | `Function` | Defaults   |
+| selected* | `boolean` | `false`    |
+| onCheck*     | `Function` |    |
 | iconSize      | `number` | `32`     |
 | iconColor      | `"black"` `"white"` `"green"` `"red"` `"yellow"` `"blue"` `"purple"` `"indigo"` | `"black"`     |
 | className      | `string`       |  |
-| children      | `string` `jsx` | |     |
-```diff
-+ Green
-- Red
-! Orange
-@@ Pink @@
-# Gray
-...
+| children*      | `string` `jsx` |  |   
+
+
+## Radio
+```js
+
+import React, { useState } from 'react'
+import { Radio } from '@multicone/components'
+
+const App = () => {
+const [selected,setSelected] = useState()
+
+const items = [
+   { name:'Dhaka', value:'d' },
+   { name:'Sylhet', value:'s' } ]
+   
+  return (
+    <div>
+      <Radio items={items}/>
+    </div>
+  )
+}
+export default App
+```
+| Parameters      | Types | Defaults     |
+| :---:           |    :----:   |  :---: |
+| items* | `item[]` |    |
+| onCheck*       | `Function` |    |
+| textStyle      | `string`       |  |
+| iconSize       | `number` | `5`     |
+| iconColor      | `"black"` `"white"` `"green"` `"red"` `"yellow"` `"blue"` `"purple"` `"indigo"` | `"green"`     |
+| className      | `string`       |  |
+| checkIcon      | `boolean`       |  `true` |
+| children*      | `string` `jsx` |  |   
+
 
 
 ## License
