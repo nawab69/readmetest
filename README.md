@@ -141,7 +141,7 @@ const items = [
    
   return (
     <div>
-      <Radio items={items}/>
+      <Select items={items} onSelect={setSelected}/>
     </div>
   )
 }
@@ -158,7 +158,6 @@ export default App
 | arrowSize       | `number`    | `32`     |
 | arrowColor      | `"black"` `"white"` `"green"` `"red"` `"yellow"` `"blue"` `"purple"` `"indigo"` | `"black"`     |
 | isCenter       | `boolean`       | `false' |
-| children*       | `string` `jsx` |  |   
 
 
 
