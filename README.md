@@ -91,12 +91,19 @@ export default App
 ```
 | Parameters      | Types | Defaults     |
 | :---:           |    :----:   |  :---: |
-| selected      | `boolean` | `false`    |
+| selected ```-*-```   | `boolean` | `false`    |
 | onCheck      | `Function` | Defaults   |
 | iconSize      | `number` | `32`     |
 | iconColor      | `"black"` `"white"` `"green"` `"red"` `"yellow"` `"blue"` `"purple"` `"indigo"` | `"black"`     |
 | className      | `string`       |  |
 | children      | `string` `jsx` | |     |
+```diff
++ Green
+- Red
+! Orange
+@@ Pink @@
+# Gray
+...
 
 
 ## License
