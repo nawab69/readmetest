@@ -1,8 +1,7 @@
 <h1 align="center">
   <br>
   <br>
-<!--  <img src="https://raw.githubusercontent.com/multicone/portofolio/master/src/images/logo/multicone.png" alt="multicone" width="500"> -->
- <img src="https://user-images.githubusercontent.com/61314988/143287544-452edd3e-a0a1-4bcc-8f1e-33324716788f.png" alt="multicone" width="500">
+  <img src="https://i.ibb.co/6bqvcHH/logo.png" alt="multicone" width="500">
   <br>
 </h1>
 
