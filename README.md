@@ -71,6 +71,8 @@ export default App
 |rounded|`"sm"` `"md"` `"lg"` `"full"`|`"md"`|
 |outline|`boolean`|`false`|
 | children*      | `string` `jsx` |  | 
+
+
 ## Checkbox
 
 ```js
@@ -146,17 +148,17 @@ const items = [
 export default App
 ```
 
-| Parameters      | Types | Defaults     |
+| Parameters      | Types       | Defaults     |
 | :---:           |    :----:   |  :---: |
-| items* | `item[]` |    |
-| onSelect*       | `Function` |    |
-| placeholder | `string` | |
-| className      | `string`       |  |
-| modalStyle      | `string`       |  |
-| arrowSize       | `number` | `32`     |
+| items*          | `item[]`    |    |
+| onSelect*       | `Function`  |    |
+| placeholder     | `string`    | |
+| className       | `string`    |  |
+| modalStyle      | `string`    |  |
+| arrowSize       | `number`    | `32`     |
 | arrowColor      | `"black"` `"white"` `"green"` `"red"` `"yellow"` `"blue"` `"purple"` `"indigo"` | `"black"`     |
-| arrowSize      | `number`       | `false' |
-| children*      | `string` `jsx` |  |   
+| isCenter       | `boolean`       | `false' |
+| children*       | `string` `jsx` |  |   
 
 
 
